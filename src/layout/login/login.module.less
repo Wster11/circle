@@ -1,0 +1,118 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/images/login_bg.jpg') 0 0 no-repeat;
+    background-size: 100% 100%;
+
+    .login-layout {
+        display: flex;
+        flex-direction: column;
+        height: 528px;
+        width: 380px;
+        background: #181818;
+        box-shadow: 0px 24px 36px rgba(0, 0, 0, 0.12), 8px 0px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+
+        .login-icon {
+            margin-left: 147px;
+            margin-top: 50px;
+            width: 85px;
+            height: 88px;
+            background: url('../../assets/images/app_icon.png') 0 0 no-repeat;
+        }
+
+        .login-text {
+            margin-top: 30px;
+            line-height: 34px;
+            font-family: 'PingFang SC';
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .login-main {
+            margin-top: 22px;
+            margin-left: 34px;
+            width: 312px;
+            height: 180px;
+        }
+
+        .username-input {
+            padding-left: 16px;
+            width: 312px;
+            height: 48px;
+            background: #262626;
+            border-radius: 40px;
+            border: none;
+
+            input {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 48px;
+                background-color: #262626;
+                caret-color: #27AE60;
+            }
+
+            .clearIcon {
+                height: 28px;
+                width: 28px;
+                background: url('../../assets/images/delete.png') 0 0 no-repeat;
+            }
+        }
+
+        .password-input {
+            margin-top: 18px;
+            padding-left: 16px;
+            width: 312px;
+            height: 48px;
+            background: #262626;
+            border-radius: 40px;
+            border: none;
+
+            input {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 48px;
+                background-color: #262626;
+                caret-color: #27AE60;
+            }
+
+            .eye-icon {
+                height: 28px;
+                width: 28px;
+                background: url('../../assets/images/eye.png') 0 0 no-repeat;
+                ;
+            }
+
+            .eye-slash {
+                height: 28px;
+                width: 28px;
+                background: url('../../assets/images/eye_slash.png') 0 0 no-repeat;
+                ;
+            }
+        }
+
+        .login-button {
+            margin-top: 18px;
+            height: 48px;
+            line-height: 48px;
+            width: 312px;
+            text-align: center;
+            background: linear-gradient(269.05deg, #0ECC00 -3.72%, #00D3E0 105.36%);
+            border-radius: 40px;
+            font-family: 'Noto Sans SC';
+            font-weight: 700;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .login-disable{
+            cursor: not-allowed;
+            opacity: 50%;
+        }
+    }
+}
