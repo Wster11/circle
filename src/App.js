@@ -1,4 +1,4 @@
-import './App.css';
+import './App.less';
 import { Routes, Route, Navigate} from "react-router-dom";
 import Login from './layout/login/login'
 import Main from './layout/main/main'
